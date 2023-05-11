@@ -1,3 +1,37 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+.header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5px;
+
+}
+h1{
+    background-color: lightskyblue;
+    width: 500px;
+    height: 70px;
+    padding:5px;
+    text-align: center;
+}
+img{
+    height:220px;
+    width:500px;
+    margin: 0px;
+}
+.list{
+    display:flex;
+    margin-left: 820px;
+    padding: 10px;
+    width: 250px;
+    height: 700px;
+    border-radius: 5px;
+    border: solid 1px ; color:black;
+    background-color: white;
+}
 li:first-child{
     font-size:20px;
     color:red;
